@@ -3,11 +3,11 @@ import mongoose from "mongoose";
 const PostSchema = new mongoose.Schema({
   title: {
     type: String,
-    max: 1000,
+    max: 100,
   },
   description: {
     type: String,
-    max: 1000,
+    max: 500,
   },
   usersID: {
     type: mongoose.Schema.Types.ObjectId,
