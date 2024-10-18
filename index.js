@@ -8,5 +8,5 @@ export const Routes = (app) => {
     res.send("SALAM World from Node.js app!");
   });
 
-  app.use("/v1/auth", AuthRouter);
+  app.use("/api/v1/auth", AuthRouter);
 };
